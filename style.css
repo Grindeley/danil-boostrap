@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+  body {  min-width:600px; }
+}
+.nb {
+  margin-bottom:50px;
+}
+.txt1 {
+  font-family: 'Do Hyeon', sans-serif;
+  color: black;
+  font-size:21px;
+}
+.txt3 {
+    font-family: 'Do Hyeon', sans-serif;
+    color: black;
+    font-size:21px;
+  }
+.jsth1 {
+margin-left: 0;
+}
+.cent {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#txt2 {
+  font-family: 'Do Hyeon', sans-serif;
+  color: black;
+  font-size:18px;
+}
+
+.imghid {
+  visibility: visible;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+@media all and (max-width:1400px) {
+  .imghid {
+    visibility: hidden;
+  }
+  #txt2 {
+    font-size:16px;
+  }
+  h1 {
+    font-size:20px;
+  }
+}
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+  }
+
+@media all and (max-width: 1200px) {
+   .txt1 {
+    font-size:16px;
+    margin-left:100px;
+  }
+  .jsth1 {
+  margin-left:100px;
+  }
+}
+@media all and (max-width: 768px) {
+   .txt1 {
+    margin-left:20px;
+  }
+  .jsth1 {
+  margin-left:20px;
+  }
+}
+.parallax {
+              background-image: url("background.jpg");
+              height: 100%;
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
